@@ -23,7 +23,7 @@ def bci_solver_visualizer(mol2_folder_path,list_of_atom_types=None,q0=None,list_
     #implementar usando regex, possivelmente nomes estranhos caso contrário
 
     if list_of_names == None:
-        list_of_names = [mol2_file_name[:-5] for mol2_file_name in mol2_files_names]
+        list_of_names = [mol2_file_name[:6] for mol2_file_name in mol2_files_names]
 
     list_of_arrays_of_solutions = bci_solver_mol2_folder(mol2_folder_path,list_of_atom_types,q0,get_solutions_only=True)
 
@@ -149,7 +149,7 @@ def bci_solver_hist_visualizer(mol2_folder_path,list_of_atom_types=None,q0=None,
     mol2_files_names = [os.path.basename(mol2_file) for mol2_file in mol2_files_path]
 
     if list_of_names == None:
-        list_of_names = [mol2_file_name[:-5] for mol2_file_name in mol2_files_names]
+        list_of_names = [mol2_file_name[:6] for mol2_file_name in mol2_files_names]
 
     list_of_arrays_of_solutions = bci_solver_mol2_folder(mol2_folder_path,list_of_atom_types,q0,get_solutions_only=True)
 
