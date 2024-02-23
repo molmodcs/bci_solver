@@ -85,7 +85,7 @@ pip install pandas
 
 ### Single File Calculations
 
-### Calculations with Multiple Files/Folder Calculations
+### Calculations with Multiple Files - Folder Calculations
 
 #### Organizing the .mol2 Folder 
 
