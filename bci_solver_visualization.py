@@ -82,20 +82,20 @@ def bci_solver_visualizer(mol2_folder_path,list_of_atom_types=None,q0=None,list_
         plt.setp(axes, xticks=x, xticklabels=mol2_names_with_common_bci)
         plt.setp(axes.get_xticklabels(), fontsize=12)
         axes.set_xticklabels(axes.get_xticklabels(), rotation=45, ha='right')
-        axes.axhline(mean_bci,color='red', linewidth=1, linestyle='dashed', label="Média dos bci")
+        axes.axhline(mean_bci,color='red', linewidth=1, linestyle='dashed', label="Average bci value")
         plt.legend(loc='center left', bbox_to_anchor=(1, 0.5))
         
         if (show_atom_symbol == True) and (show_atom_type == False):
 
-            axes.set_title(label= f"Valores de bci para interações {bci_atom_interactions_mol2[bci][0][0]}-{bci_atom_interactions_mol2[bci][1][0]}")  
+            axes.set_title(label= f"bci values for the interactions {bci_atom_interactions_mol2[bci][0][0]}-{bci_atom_interactions_mol2[bci][1][0]}")  
 
         if (show_atom_symbol == True) and (show_atom_type == True):
 
-            axes.set_title(label= f"Valores de bci para interações {bci_atom_interactions_mol2[bci][0][0]}({bci[0]})-{bci_atom_interactions_mol2[bci][1][0]}({bci[1]})")
+            axes.set_title(label= f"bci values for the interactions {bci_atom_interactions_mol2[bci][0][0]}({bci[0]})-{bci_atom_interactions_mol2[bci][1][0]}({bci[1]})")
         
         if (show_atom_symbol == False) and (show_atom_type == True):
 
-            axes.set_title(label= f"Valores de bci para interações {bci[0]}-{bci[1]}")
+            axes.set_title(label= f"bci values for the interactions {bci[0]}-{bci[1]}")
 
         axes.plot(x,bci_values,'o--')  
 
