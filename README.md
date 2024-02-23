@@ -70,9 +70,13 @@ pip install pandas
 
 ## bci_solver_main
 
+In this section, we describe how to utilize the main module, namely bci_solver_main for calculating bci values of chemical structures.
+
 ### Generating and Organizing the Input Data
 
 #### The .mol2 File Format 
+
+These are the most important files and are required for all the calculations. A .mol2 file essentially provides the connectivity information about its corresponding chemical structure. They also provide the partial atomic charges of each atom consituting tbe structure, but not necessarily the computations need to be carried through using the charges available in the .mol2 file itself, they can also be provided by an external source, this will be further explained in the [Charge File Formats section](#charge-file-formats). 
 
 #### Charge File Formats
 
