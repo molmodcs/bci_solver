@@ -62,13 +62,15 @@ The user can also choose for the output folder. If one is not provided, the gene
 
 Finally, in case the user has provided a -F/--folder argument, he can optionally choose if the labels for the chemical structures appearing in the generated graphs and histograms will be the full corresponding file names by choosing --full or if the names will be shortened to first 6 characters of the file names (default behaviour). In any case, we recommend users to choose file names with a maximum length of 6 characters.
 
-# Examples of possible user inputs
+# Examples of Possible User Inputs
 
 * -f '.mol2 file path' 
 * -f '.mol2 file path' -xyz 'path containing the charges which will be used for computations in .xyz format'
 * -F '.mol2 folder path' -s 'path containing the charges which will be used for computations in a sheet format'
 * -F '.mol2 folder path' -o 'output folder'
 * -F 'mol22 folder path' --full
+
+# Generating the Input Data
 
 # Technical Remarks
 
