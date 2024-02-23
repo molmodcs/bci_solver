@@ -140,7 +140,7 @@ def bci_solver_hist_openbabel(dpi_value=100,output_folder=None,show_atom_symbol=
     fig, ax = plt.subplots(dpi=dpi_value)
     ax.set_xlim(-1,0.8)
     n_bins = 80
-    ax.hist(bcis,bins=n_bins,density=False,histtype='step',linewidth=1.5,label='Histograma dos bci disponíveis no OpenBabel',color='purple')
+    ax.hist(bcis,bins=n_bins,density=False,histtype='step',linewidth=1.5,label='Histogram depicting the bci values available in OpenBabel',color='purple')
     plt.legend(loc='center left',bbox_to_anchor=(1,0.5))
     ax.set_xlabel('Valores de bci')
     ax.set_ylabel('Frequência')
@@ -225,20 +225,20 @@ def bci_solver_hist_visualizer(mol2_folder_path,list_of_atom_types=None,q0=None,
         ax.set_xlabel('Valores de bci')
         ax.set_ylabel('Frequência')
 
-        ax.hist(bcis,bins=n_bins1,density=True,histtype='step',linewidth=1.5,label='Histograma dos bci disponíveis no OpenBabel',color='purple')  
+        ax.hist(bcis,bins=n_bins1,density=True,histtype='step',linewidth=1.5,label='Histogram depicting the bci values available in OpenBabel',color='purple')  
         
         if (show_atom_symbol == True) and (show_atom_type == False):
 
-            ax.hist(bci_values,bins=n_bins2,density=True,histtype='step',linewidth=1.5,label=f'Histograma dos bci {bci_atom_interactions_mol2[bci][0][0]}-{bci_atom_interactions_mol2[bci][1][0]} ',color='green')
+            ax.hist(bci_values,bins=n_bins2,density=True,histtype='step',linewidth=1.5,label=f'Histogram of the bci values for the interactions {bci_atom_interactions_mol2[bci][0][0]}-{bci_atom_interactions_mol2[bci][1][0]} ',color='green')
             
         if (show_atom_symbol == True) and (show_atom_type == True):
             
-            ax.hist(bci_values,bins=n_bins2,density=True,histtype='step',linewidth=1.5,label=f'Histograma dos bci {bci_atom_interactions_mol2[bci][0][0]}({bci[0]})-{bci_atom_interactions_mol2[bci][1][0]}({bci[1]}) ',color='green')
+            ax.hist(bci_values,bins=n_bins2,density=True,histtype='step',linewidth=1.5,label=f'Histogram of the bci values for the interactions {bci_atom_interactions_mol2[bci][0][0]}({bci[0]})-{bci_atom_interactions_mol2[bci][1][0]}({bci[1]}) ',color='green')
             
         
         if (show_atom_symbol == False) and (show_atom_type == True):
             
-            ax.hist(bci_values,bins=n_bins2,density=True,histtype='step',linewidth=1.5,label=f'Histograma dos bci {bci[0]}-{bci[1]} ',color='green')
+            ax.hist(bci_values,bins=n_bins2,density=True,histtype='step',linewidth=1.5,label=f'Histogram of the bci values for the interactions {bci[0]}-{bci[1]} ',color='green')
 
         if save_fig == True:
             if (show_atom_symbol == True) and (show_atom_type == False):
