@@ -1,16 +1,23 @@
 # bci solver
 
-Github Page: https://github.com/molmodcs/bci_solver
+# Github Page
+
+https://github.com/molmodcs/bci_solver
 
 # Dependencies 
 
 To properly run the script, it is first necessary to install the following dependencies;
 
 Python == 3.12.0 - https://www.python.org/.
+
 NumPy ==  1.26.0 - https://numpy.org/ - pip install numpy - conda install numpy.
+
 SciPy == 1.12.0 - https://scipy.org/ - pip install scipy - conda install scipy.
+
 Matplotlib == 3.8.3 - https://matplotlib.org/ - pip install matplotlib - conda install matplotlib.
+
 SciencePlots == 1.0.1 - https://pypi.org/project/SciencePlots/ - pip install SciencePlots.
+
 Pandas == 2.2.1 - https://pandas.pydata.org/ - pip install pandas.
 
 # User Input
@@ -23,7 +30,7 @@ The user can also choose for the output folder. If one is not provided, the gene
 
 Finally, in case the user has provided a -F/--folder argument, he can optionally choose if the labels for the chemical structures appearing in the generated graphs and histograms will be the full corresponding file names by choosing --full or if the names will be shortened to first 6 characters of the file names (default behaviour). In any case, we recommend users to choose file names with a maximum length of 6 characters.
 
-# Examples of possible user inputs:
+# Examples of possible user inputs
 
 * -f '.mol2 file path' 
 * -f '.mol2 file path' -xyz 'path containing the charges which will be used for computations in .xyz format'
