@@ -4,7 +4,7 @@ The purpose of the [bci solver](https://github.com/molmodcs/bci_solver) program 
 
 In a nutshell, independently of the version preferred by the user, to utilize the program the user must provide the following data:
 
-- Either a single .mol2 file corresponding to a chemical structure, or a folder containing .mol2 files which are organized in a suitable way which will be detailed in the [Generating and Organizing the Input Data section](#Generating and Organizing the Input Data) in this README.
+- Either a single .mol2 file corresponding to a chemical structure, or a folder containing .mol2 files which are organized in a suitable way which will be detailed in the [Generating and Organizing the Input Data section](#generating-and-organizing-the-input-data) in this README.
 
 - The partial charges of the corresponding chemical structures represented by the .mol2 files. These
 
