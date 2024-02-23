@@ -1,5 +1,18 @@
-# [bci solver](https://github.com/molmodcs/bci_solver)
+# bci solver - Overview
 
+The purpose of the [bci solver](https://github.com/molmodcs/bci_solver) program is to predict the bci values present in a chemical structure from its partial atomic charges, as well as presenting this data in a clear fashion. It is divided into four modules, where the bci_solver_main module is the one where in fact the user will be able to interact with. It comes in two versions, a python script version which is usable in the command prompt line and a jupyter notebook one. 
+
+In a nutshell, independently of the version preferred by the user, to utilize the program the user must provide the following data:
+
+- Either a single .mol2 file corresponding to a chemical structure, or a folder containing .mol2 files which are organized in a suitable way which will be detailed in the **** section.
+
+- The partial charges of the corresponding chemical structures represented by the .mol2 files. These
+
+As an output, the program will generate the following data:
+
+-
+
+-
 
 # Dependencies 
 
@@ -49,7 +62,14 @@ Pandas == 2.2.1 - https://pandas.pydata.org/.
 pip install pandas
 ~~~
 
-# User Input
+
+# Modules
+
+## bci_solver
+
+### Generating and Organizing the Input Data
+
+### User Input
 
 The user must provide first if computations will be done using a single .mol2 file or using a folder of .mol2 files by choosing between either -f/--file or -F/--folder. 
 
@@ -59,19 +79,17 @@ The user can also choose for the output folder. If one is not provided, the gene
 
 Finally, in case the user has provided a -F/--folder argument, he can optionally choose if the labels for the chemical structures appearing in the generated graphs and histograms will be the full corresponding file names by choosing --full or if the names will be shortened to first 6 characters of the file names (default behaviour). In any case, we recommend users to choose file names with a maximum length of 6 characters.
 
-# Examples of Possible User Inputs
+### Examples of Possible User Inputs
 
-* -f '.mol2 file path' 
-* -f '.mol2 file path' -xyz 'path containing the charges which will be used for computations in .xyz format'
-* -F '.mol2 folder path' -s 'path containing the charges which will be used for computations in a sheet format'
-* -F '.mol2 folder path' -o 'output folder'
-* -F 'mol22 folder path' --full
+* -f '.mol2 file path' - colocar imagem retratando este caso
+* -f '.mol2 file path' -xyz 'path containing the charges which will be used for computations in .xyz format' - colocar imagem retratando este caso
+* -F '.mol2 folder path' -s 'path containing the charges which will be used for computations in a sheet format' - colocar imagem retratando este caso
+* -F '.mol2 folder path' -o 'output folder' - colocar imagem retratando este caso
+* -F 'mol22 folder path' --full - colocar imagem retratando este caso
 
-# Generating and Organizing the Input Data
+### Output
 
-# Output Data
-
-# Modules
+- colocar imagens retratando cada um dos casos especificados anteriormente
 
 ## bci_solver_mol2tools
 
