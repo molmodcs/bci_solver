@@ -85,11 +85,11 @@ pip install pandas
 
 ### Single File Calculations
 
-### Multiple File/Folder Calculations
+### Calculations with Multiple Files/Folder Calculations
 
-#### .mol2 Folder 
+#### Organizing the .mol2 Folder 
 
-#### Charge Folder
+#### Organizing the Charge Folder
 
 ### User Input (bci_solver_main.py)
 
