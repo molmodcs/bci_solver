@@ -13,11 +13,11 @@ Github Page: https://github.com/molmodcs/bci_solver
 
 Dependencies: To properly run the script, it is first necessary to install the following dependencies;
 
-NumPy - https://numpy.org/
-SciPy - https://scipy.org/
-Matplotlib - https://matplotlib.org/
-SciencePlots - https://pypi.org/project/SciencePlots/
-Pandas - https://pandas.pydata.org/
+NumPy - https://numpy.org/ - pip install numpy - conda install numpy.
+SciPy - https://scipy.org/ - pip install scipy - conda install scipy.
+Matplotlib - https://matplotlib.org/ - pip install matplotlib - conda install matplotlib.
+SciencePlots - https://pypi.org/project/SciencePlots/ - pip install SciencePlots.
+Pandas - https://pandas.pydata.org/ - pip install pandas.
 
 User Input: 
 
