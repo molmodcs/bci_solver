@@ -1,8 +1,7 @@
-# bci solver
+# [bci solver](https://github.com/molmodcs/bci_solver
+)
 
-# Github Page
 
-https://github.com/molmodcs/bci_solver
 
 # Dependencies 
 
