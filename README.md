@@ -1,6 +1,6 @@
 # bci solver - Overview
 
-The purpose of the [bci solver](https://github.com/molmodcs/bci_solver) program is to predict the bci values [[1](Halgren),[2](Halgren),[3](Halgren),[4](Halgren)] present in a chemical structure from its partial atomic charges, as well as presenting this data in a clear fashion. It is divided into four modules, where the bci_solver_main module is the one where in fact the user will be able to interact with. It comes in two versions, a python script version which is usable in the command prompt line and a jupyter notebook one. 
+The purpose of the [bci solver](https://github.com/molmodcs/bci_solver) program is to predict the bci values [[1](#references),[2](#references),[3](#references),[4](#references)] present in a chemical structure from its partial atomic charges, as well as presenting this data in a clear fashion. It is divided into four modules, where the bci_solver_main module is the one where in fact the user will be able to interact with. It comes in two versions, a python script version which is usable in the command prompt line and a jupyter notebook one. 
 
 In a nutshell, independently of the version preferred by the user, to utilize the program the user must provide the following data:
 
