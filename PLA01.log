@@ -1,0 +1,46 @@
+------------------------------------------------------------------------------
+                      ORCA CHELPG CHARGES GENERATION
+------------------------------------------------------------------------------
+
+GBW file                           ... PLA_01-M06L-ZORA-def2-TZVP-SP.gbw
+
+Reading the GBW file               ... done
+
+Grid spacing                       ...     0.300000
+Point Cut-Off                      ...     2.800000
+Van-der-Waals Radii                ...        COSMO
+Total charge                       ...            0
+
+
+Number of points X direction       ...           31
+Number of points Y direction       ...           34
+Number of points Z direction       ...           24
+Maximum number of possible points  ...        25296
+Final number of points             ...         9043
+
+
+CHELPG Charges            
+--------------------------------
+  0   Pt  :      -0.008559
+  1   Cl  :      -0.318260
+  2   Cl  :      -0.318714
+  3   N   :      -0.416660
+  4   N   :      -0.418287
+  5   H   :       0.294817
+  6   H   :       0.215505
+  7   H   :       0.216209
+  8   H   :       0.294618
+  9   H   :       0.229083
+ 10   H   :       0.230248
+--------------------------------
+Total charge:     0.000000
+--------------------------------
+
+CHELPG charges calculated...
+
+Timings for individual parts in CHELPG calculation:
+Grid generation                 ...        0.002 sec (=   0.000 min)
+Potential calculation           ...        6.895 sec (=   0.115 min)
+Fit to the potential            ...        0.003 sec (=   0.000 min)
+------------------------------------------------------------------------------
+
