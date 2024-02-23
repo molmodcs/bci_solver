@@ -12,9 +12,8 @@ The user can have a look at the [test-files](https://github.com/molmodcs/bci_sol
 
 As an output, the program will generate the following data:
 
--
-
--
+- .par files containing for each .mol2 the bci values obtained through the calculations.
+- Graphs and histograms depicting the variation between the bci values calculated across different structures or methods if computations are done across multiple chemical structures.
 
 Explicit examples of output data are shown in the [Output](#output) section in this README and can also be acessed in the [Output]() folder available with the main project.
 
