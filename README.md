@@ -110,3 +110,9 @@ In the current version of the script, the user can not directly provide informat
 # References
 
 <b>[1]</b> Halgren, Thomas A. The Representation of van Der Waals (VdW) Interactions in Molecular Mechanics Force Fields: Potential Form, Combination Rules, and VdW Parameters. Sept. 1992, https://doi.org/10.1021/ja00046a032.
+
+<b>[2]</b> Halgren, Thomas A. Merck Molecular Force Field. I. Basis, Form, Scope, Parameterization, and Performance of MMFF94. Apr. 1996, https://doi.org/10.1002/(sici)1096-987x(199604)17:5/6<490::aid-jcc1>3.0.co;2-p.
+
+<b>[3]</b> Halgren, Thomas A.. “Merck molecular force field. II. MMFF94 van der Waals and electrostatic parameters for intermolecular interactions.” Journal of Computational Chemistry 17 (1996): n. pag.
+
+<b>[4]</b> Halgren, Thomas A.. “Merck molecular force field. V. Extension of MMFF94 using experimental data, additional computational data, and empirical rules.” Journal of Computational Chemistry 17 (1996): n. pag.
