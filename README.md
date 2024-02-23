@@ -16,7 +16,7 @@ As an output, the program will generate the following data:
 
 -
 
-Explicit examples of output data are shown in the [Ouput](#output) section in this README and can also be acessed in the [Output]() folder available with the main project.
+Explicit examples of output data are shown in the [Output](#output) section in this README and can also be acessed in the [Output]() folder available with the main project.
 
 # Dependencies 
 
