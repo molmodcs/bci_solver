@@ -13,7 +13,11 @@ Python == 3.12.0 - https://www.python.org/.
 NumPy ==  1.26.0 - https://numpy.org/. 
 
 ~~~
-pip install numpy - conda install numpy
+pip install numpy
+~~~
+
+~~~
+conda install numpy
 ~~~
 
 SciPy == 1.12.0 - https://scipy.org/.
