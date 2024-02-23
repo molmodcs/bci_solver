@@ -70,7 +70,17 @@ Finally, in case the user has provided a -F/--folder argument, he can optionally
 * -F '.mol2 folder path' -o 'output folder'
 * -F 'mol22 folder path' --full
 
-# Generating the Input Data
+# Generating and Organizing the Input Data
+
+# Output Data
+
+# Modules
+
+## bci_solver_mol2tools
+
+## bci_solver_optimization
+
+## bci_solver
 
 # Technical Remarks
 
