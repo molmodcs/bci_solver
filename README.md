@@ -8,13 +8,15 @@ In a nutshell, independently of the version preferred by the user, to utilize th
 
 - The partial charges of the corresponding chemical structures represented by the .mol2 files. The format for these charge files must be either .xyz, an ORCA .log file format, or a sheet format (Pandas Dataframe,Excel,LibreOffice,CSV) following a standard outlined [Generating and Organizing the Input Data section](#generating-and-organizing-the-input-data).
 
+The user can have a look at the [test-files](https://github.com/molmodcs/bci_solver/tree/main/test-files) folder to get a better understanding of the formats supported by the program.
+
 As an output, the program will generate the following data:
 
 -
 
 -
 
-Explicit examples of 
+Explicit examples of output data are shown in the [Ouput](#output) section in this README and can also be acessed in the [Output]() folder available with the main project.
 
 # Dependencies 
 
