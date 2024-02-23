@@ -80,7 +80,7 @@ Finally, in case the user has provided a -F/--folder argument, he can optionally
 
 ## bci_solver_optimization
 
-## bci_solver
+## bci_solver_visualization
 
 # Technical Remarks
 
