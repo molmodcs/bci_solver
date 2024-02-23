@@ -106,3 +106,7 @@ Finally, in case the user has provided a -F/--folder argument, he can optionally
 # Technical Remarks
 
 In the current version of the script, the user can not directly provide information about the atom types of the chemical structures. This is so because we still haven't figured out an efficient way the user can provide this information. So, in all the computations being done in this current version, there's no distinction between an atom and its corresponding atom type, i.e the same atom will always have the same atom type regardless of its role in the chemical structure. This might make some of the results slightly inaccurate. But future implementations of this program will resolve this issue.
+
+# References
+
+<b>[1]</b> Halgren, Thomas A. The Representation of van Der Waals (VdW) Interactions in Molecular Mechanics Force Fields: Potential Form, Combination Rules, and VdW Parameters. Sept. 1992, https://doi.org/10.1021/ja00046a032.
