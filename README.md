@@ -72,23 +72,24 @@ pip install pandas
 
 ### Generating and Organizing the Input Data
 
-#### Single File Calculations
+#### The .mol2 File Format 
 
-##### .mol2 File
+#### Charge File Formats
 
-##### Charge File
+##### .xyz Format
 
-###### .xyz Format
+##### Orca .log Format
 
-###### Orca .log Format
+##### Sheet Format
 
-###### Sheet Format
 
-#### Multiple File Calculations
+### Single File Calculations
 
-##### .mol2 Folder 
+### Multiple File Calculations
 
-##### Charge Folder
+#### .mol2 Folder 
+
+#### Charge Folder
 
 ### User Input (bci_solver_main.py)
 
