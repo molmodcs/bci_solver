@@ -142,8 +142,8 @@ def bci_solver_hist_openbabel(dpi_value=100,output_folder=None,show_atom_symbol=
     n_bins = 80
     ax.hist(bcis,bins=n_bins,density=False,histtype='step',linewidth=1.5,label='Histogram depicting the bci values available in OpenBabel',color='purple')
     plt.legend(loc='center left',bbox_to_anchor=(1,0.5))
-    ax.set_xlabel('Valores de bci')
-    ax.set_ylabel('Frequência')
+    ax.set_xlabel('bci values')
+    ax.set_ylabel('Frequency')
 
 def bci_solver_hist_visualizer(mol2_folder_path,list_of_atom_types=None,q0=None,list_of_names=None,dpi_value=100,output_folder=None,show_atom_symbol=True,show_atom_type=False,save_fig=True,full_name=False):
 
