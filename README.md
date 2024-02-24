@@ -109,21 +109,21 @@ Finally, in case the user has provided a -F/--folder argument, he can optionally
 
 ### List of Commands
 
-* -h, --help: shows a help message and exits.
+* `-h`, `--help`: shows a help message and exits.
   
-* -o OUTPUT, --output OUTPUT: specifies the output folder.
+* `-o` OUTPUT, `--output` OUTPUT: specifies the output folder.
   
-* --full: specifies that the labels appearing in the generated graphs and histograms will be the full .mol2 file names.
+* `--full`: specifies that the labels appearing in the generated graphs and histograms will be the full .mol2 file names.
 
-* -f FILE, --file FILE specifies that computations will be done using a single .mol2 file. Argument must be the path to a .mol2 file or the file name itself if it is available in the current directory.
+* `-f` FILE, `--file` FILE specifies that computations will be done using a single .mol2 file. Argument must be the path to a .mol2 file or the file name itself if it is available in the current directory.
   
--F FOLDER, --folder FOLDER: specifies that computations will be done for multiple .mol2 files inside a folder. Argument must be the path to a folder containing .mol2 files or the folder name itself if it is available in the current directory.
+* `-F` FOLDER, `--folder` FOLDER: specifies that computations will be done for multiple .mol2 files inside a folder. Argument must be the path to a folder containing .mol2 files or the folder name itself if it is available in the current directory.
 
-* -l LOG, --log LOG: specifies that the atom charges for the respective .mol2 files are all available in a Orca .log format.
+* `-l` LOG, `--log` LOG: specifies that the atom charges for the respective .mol2 files are all available in a Orca .log format.
   
-* -s SHEET, --sheet SHEET: specifies that the atom charges for the respective .mol2 files are all available in a sheet format.
+* `-s` SHEET, `--sheet` SHEET: specifies that the atom charges for the respective .mol2 files are all available in a sheet format.
   
-* -xyz XYZ: specifies that the atom charges for the respective .mol2 files are all available in a .xyz format.
+* `-xyz` XYZ: specifies that the atom charges for the respective .mol2 files are all available in a .xyz format.
 
 ### Examples of Possible User Inputs (bci_solver_main.py)
 
