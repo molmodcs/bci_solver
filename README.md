@@ -198,7 +198,9 @@ Finally, in case the user has provided a -F/--folder argument, he can optionally
 
 * `-F 'mol22 folder path' --full` 
 
+<p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-folder-full-example.png" alt="drawing" width="250"/>
+<p align="center">
 
 ### User Input (bci_solver_main.ipynb)
 
