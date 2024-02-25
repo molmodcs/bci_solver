@@ -90,7 +90,7 @@ In this section, we describe how to utilize the main module, namely bci_solver_m
 These are the most important files and are required for all the calculations. A .mol2 file essentially provides the connectivity information about its corresponding chemical structure. They also provide the partial atomic charges of each atom consituting tbe structure, but not necessarily the computations need to be carried through using the charges available in the .mol2 file itself, they can also be provided by an external source, this will be further explained in the [Charge File Formats section](#charge-file-formats). 
 
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/The%20.mol2%20File%20Format/mol2-file-example%20(cispla1-PBEQIDHsapoDZPdzp).png" alt="drawing"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/The%20.mol2%20File%20Format/mol2-file-example%20(cispla1-PBEQIDHsapoDZPdzp).png" alt="drawing",width = 300/>
 <p align="center">
 #### Charge File Formats
 
