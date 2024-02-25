@@ -175,31 +175,31 @@ Finally, in case the user has provided a -F/--folder argument, he can optionally
 * `-f '.mol2 file path'` 
 
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-file-example.png" alt="drawing" width="250"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-file-example.png" alt="drawing"/>
 <p align="center">
 
 * `-f '.mol2 file path' -xyz 'path containing the charges which will be used for computations in .xyz format'`
 
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-file-xyz-example.png" alt="drawing" width="250"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-file-xyz-example.png" alt="drawing"/>
 <p align="center">
 
 * `-F '.mol2 folder path' -s 'path containing the charges which will be used for computations in a sheet format'` 
 
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-folder-sheet-example.png" alt="drawing" width="250"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-folder-sheet-example.png" alt="drawing""/>
 <p align="center">
 
 * `-F '.mol2 folder path' -o 'output folder'`
 
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-folder-output-example.png" alt="drawing" width="250"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-folder-output-example.png" alt="drawing"/>
 <p align="center">
 
 * `-F 'mol22 folder path' --full` 
 
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-folder-full-example.png" alt="drawing" width="250"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-folder-full-example.png" alt="drawing"/>
 <p align="center">
 
 ### User Input (bci_solver_main.ipynb)
