@@ -125,7 +125,7 @@ These are the most important files and are required for all the calculations. A 
 
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Calculations%20with%20Multiple%20Files%20-%20Folder%20Calculations/Organizing%20the%20Charge%20Folder/cisplatin%20-%20charge%20-%20folder%20-%20example.png" alt="drawing" width="250"/>
 
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Calculations%20with%20Multiple%20Files%20-%20Folder%20Calculations/Organizing%20the%20Charge%20Folder/cisplatin%20-%20mol2%20-%20folder%20-example.png", alt="drawing",width=250/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Calculations%20with%20Multiple%20Files%20-%20Folder%20Calculations/Organizing%20the%20Charge%20Folder/cisplatin%20-%20mol2%20-%20folder%20-example.png" alt="drawing" width="250"/>
 
 ### User Input (bci_solver_main.py)
 
@@ -159,23 +159,23 @@ Finally, in case the user has provided a -F/--folder argument, he can optionally
 
 * `-f '.mol2 file path'` 
 
-<img src="drawing.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-file-example.png" alt="drawing" width="250"/>
 
 * `-f '.mol2 file path' -xyz 'path containing the charges which will be used for computations in .xyz format'`
 
-<img src="drawing.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-file-xyz-example.png" alt="drawing" width="250"/>
 
 * `-F '.mol2 folder path' -s 'path containing the charges which will be used for computations in a sheet format'` 
 
-<img src="drawing.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-folder-sheet-example.png" alt="drawing" width="250"/>
 
 * `-F '.mol2 folder path' -o 'output folder'`
 
-<img src="drawing.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-folder-output-example.png" alt="drawing" width="250"/>
 
 * `-F 'mol22 folder path' --full` 
 
-<img src="drawing.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-folder-full-example.png" alt="drawing" width="250"/>
 
 ### User Input (bci_solver_main.ipynb)
 
