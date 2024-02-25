@@ -90,35 +90,42 @@ In this section, we describe how to utilize the main module, namely bci_solver_m
 These are the most important files and are required for all the calculations. A .mol2 file essentially provides the connectivity information about its corresponding chemical structure. They also provide the partial atomic charges of each atom consituting tbe structure, but not necessarily the computations need to be carried through using the charges available in the .mol2 file itself, they can also be provided by an external source, this will be further explained in the [Charge File Formats section](#charge-file-formats). 
 
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/The%20.mol2%20File%20Format/mol2-file-example%20(cispla1-PBEQIDHsapoDZPdzp).png" alt="drawing",width = 300/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/The%20.mol2%20File%20Format/mol2-file-example%20(cispla1-PBEQIDHsapoDZPdzp).png" alt="drawing",width = 250/>
 <p align="center">
+  
 #### Charge File Formats
 
 ##### .xyz Format
 
-<img src="drawing.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Charge%20File%20Formats/xyz%20Format/xyz-file-format-example%20(cispla1-PBEQIDHsapoDZPdzp-PBE-QIDH-Sapporo-DZP-2012-OPT).png" alt="drawing" width="250"/>
 
 ##### Orca .log Format
 
-<img src="drawing.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Charge%20File%20Formats/Orca%20.log%20Format/log-file-format-example%20(PLA01).png" alt="drawing" width="250"/>
 
 ##### Sheet Format
 
-<img src="drawing.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Charge%20File%20Formats/Sheet%20Format/sheet-file-format-example%20(chelpg-complexos-M06L-ZORA-TZVP).png" alt="drawing" width="250"/>
+
+
 
 ### Single File Calculations
 
-<img src="drawing.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Single%20File%20Calculations/mol2-file-example%20(cispla1-PBEQIDHsapoDZPdzp).png" alt="drawing" width="250"/>
+
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Single%20File%20Calculations/xyz-file-format-example%20(cispla1-PBEQIDHsapoDZPdzp-PBE-QIDH-Sapporo-DZP-2012-OPT).png" alt="drawing" width="250"/>
 
 ### Calculations with Multiple Files - Folder Calculations
 
 #### Organizing the .mol2 Folder 
 
-<img src="drawing.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Calculations%20with%20Multiple%20Files%20-%20Folder%20Calculations/Organizing%20the%20.mol2%20Folder/organizing-mol2-folder-example-solid-cisplatin.png" alt="drawing" width="250"/>
 
 #### Organizing the Charge Folder
 
-<img src="drawing.jpg" alt="drawing" width="200"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Calculations%20with%20Multiple%20Files%20-%20Folder%20Calculations/Organizing%20the%20Charge%20Folder/cisplatin%20-%20charge%20-%20folder%20-%20example.png" alt="drawing" width="250"/>
+
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Calculations%20with%20Multiple%20Files%20-%20Folder%20Calculations/Organizing%20the%20Charge%20Folder/cisplatin%20-%20mol2%20-%20folder%20-example.png", alt="drawing",width=250/>
 
 ### User Input (bci_solver_main.py)
 
