@@ -97,35 +97,50 @@ These are the most important files and are required for all the calculations. A 
 
 ##### .xyz Format
 
+<p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Charge%20File%20Formats/xyz%20Format/xyz-file-format-example%20(cispla1-PBEQIDHsapoDZPdzp-PBE-QIDH-Sapporo-DZP-2012-OPT).png" alt="drawing" width="250"/>
+<p align="center">
 
 ##### Orca .log Format
 
+<p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Charge%20File%20Formats/Orca%20.log%20Format/log-file-format-example%20(PLA01).png" alt="drawing" width="250"/>
+<p align="center">
 
 ##### Sheet Format
 
+<p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Charge%20File%20Formats/Sheet%20Format/sheet-file-format-example%20(chelpg-complexos-M06L-ZORA-TZVP).png" alt="drawing" width="250"/>
-
+<p align="center">
 
 
 ### Single File Calculations
 
+<p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Single%20File%20Calculations/mol2-file-example%20(cispla1-PBEQIDHsapoDZPdzp).png" alt="drawing" width="250"/>
+<p align="center">
 
+<p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Single%20File%20Calculations/xyz-file-format-example%20(cispla1-PBEQIDHsapoDZPdzp-PBE-QIDH-Sapporo-DZP-2012-OPT).png" alt="drawing" width="250"/>
+<p align="center">
 
 ### Calculations with Multiple Files - Folder Calculations
 
 #### Organizing the .mol2 Folder 
 
+<p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Calculations%20with%20Multiple%20Files%20-%20Folder%20Calculations/Organizing%20the%20.mol2%20Folder/organizing-mol2-folder-example-solid-cisplatin.png" alt="drawing" width="250"/>
+<p align="center">
 
 #### Organizing the Charge Folder
 
+<p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Calculations%20with%20Multiple%20Files%20-%20Folder%20Calculations/Organizing%20the%20Charge%20Folder/cisplatin%20-%20charge%20-%20folder%20-%20example.png" alt="drawing" width="250"/>
+<p align="center">
 
+<p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Calculations%20with%20Multiple%20Files%20-%20Folder%20Calculations/Organizing%20the%20Charge%20Folder/cisplatin%20-%20mol2%20-%20folder%20-example.png" alt="drawing" width="250"/>
+<p align="center">
 
 ### User Input (bci_solver_main.py)
 
@@ -159,19 +174,27 @@ Finally, in case the user has provided a -F/--folder argument, he can optionally
 
 * `-f '.mol2 file path'` 
 
+<p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-file-example.png" alt="drawing" width="250"/>
+<p align="center">
 
 * `-f '.mol2 file path' -xyz 'path containing the charges which will be used for computations in .xyz format'`
 
+<p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-file-xyz-example.png" alt="drawing" width="250"/>
+<p align="center">
 
 * `-F '.mol2 folder path' -s 'path containing the charges which will be used for computations in a sheet format'` 
 
+<p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-folder-sheet-example.png" alt="drawing" width="250"/>
+<p align="center">
 
 * `-F '.mol2 folder path' -o 'output folder'`
 
+<p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Examples%20of%20Possible%20User%20Inputs/user-input-folder-output-example.png" alt="drawing" width="250"/>
+<p align="center">
 
 * `-F 'mol22 folder path' --full` 
 
@@ -181,13 +204,21 @@ Finally, in case the user has provided a -F/--folder argument, he can optionally
 
 ### Output
 
+<p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Output%20-%20Images/bci_values_N-H.png" alt="drawing" width="250"/>
+<p align="center">
 
+<p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Output%20-%20Images/bci_values_N-H_hist.png" alt="drawing" width="250"/>
+<p align="center">
 
+<p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Output%20-%20Images/bci_par_file.png" alt="drawing" width="250"/>
+<p align="center">
 
+<p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Output%20-%20Images/mol2_charge_conversion.png" alt="drawing" width="250"/>
+<p align="center">
 
 ## bci_solver_mol2tools
 
