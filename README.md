@@ -207,19 +207,19 @@ Finally, in case the user has provided a -F/--folder argument, he can optionally
 ### Output
 
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Output%20-%20Images/bci_values_N-H.png" alt="drawing" width="250"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Output%20-%20Images/bci_values_N-H.png" alt="drawing"/>
 <p align="center">
 
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Output%20-%20Images/bci_values_N-H_hist.png" alt="drawing" width="250"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Output%20-%20Images/bci_values_N-H_hist.png" alt="drawing"/>
 <p align="center">
 
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Output%20-%20Images/bci_par_file.png" alt="drawing" width="250"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Output%20-%20Images/bci_par_file.png" alt="drawing"/>
 <p align="center">
 
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Output%20-%20Images/mol2_charge_conversion.png" alt="drawing" width="250"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Output%20-%20Images/mol2_charge_conversion.png" alt="drawing"/>
 <p align="center">
 
 ## bci_solver_mol2tools
