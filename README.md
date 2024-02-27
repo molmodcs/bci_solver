@@ -99,7 +99,7 @@ In this section, we describe the file formats used to store the partial atomic c
 
 ##### xyz Format
 
-XYZ files can be used to describe the partial atomic charges of a given chemical structure. As in the figure below, these charges are placed in the last column of the XYZ document.
+XYZ files can be used to describe the partial atomic charges of a given chemical structure. As in the figure below, these charges are placed in the last column of the XYZ document. They can be obtained as output of an ORCA point charge or population analysis calculation.
 
 <p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Charge%20File%20Formats/xyz%20Format/xyz-file-format-example%20(cispla1-PBEQIDHsapoDZPdzp-PBE-QIDH-Sapporo-DZP-2012-OPT).png" alt="drawing"/>
@@ -107,14 +107,16 @@ XYZ files can be used to describe the partial atomic charges of a given chemical
 
 ##### Orca .log Format
 
+These files can also be obtained as output of an ORCA point charge or population analysis calculation.
+
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Charge%20File%20Formats/Orca%20.log%20Format/log-file-format-example%20(PLA01).png" alt="drawing" width="250"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Charge%20File%20Formats/Orca%20.log%20Format/log-file-format-example%20(PLA01).png" alt="drawing"/>
 <p align="center">
 
 ##### Sheet Format
 
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Charge%20File%20Formats/Sheet%20Format/sheet-file-format-example%20(chelpg-complexos-M06L-ZORA-TZVP).png" alt="drawing" width="250"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Charge%20File%20Formats/Sheet%20Format/sheet-file-format-example%20(chelpg-complexos-M06L-ZORA-TZVP).png" alt="drawing"/>
 <p align="center">
 
 
