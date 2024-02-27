@@ -102,7 +102,7 @@ In this section, we describe the file formats used to store the partial atomic c
 XYZ files can be used to describe the partial atomic charges of a given chemical structure. As in the figure below, these charges are placed in the last column of the XYZ document.
 
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Charge%20File%20Formats/xyz%20Format/xyz-file-format-example%20(cispla1-PBEQIDHsapoDZPdzp-PBE-QIDH-Sapporo-DZP-2012-OPT).png" alt="drawing" width="250"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Charge%20File%20Formats/xyz%20Format/xyz-file-format-example%20(cispla1-PBEQIDHsapoDZPdzp-PBE-QIDH-Sapporo-DZP-2012-OPT).png" alt="drawing" width="300"/>
 <p align="center">
 
 ##### Orca .log Format
