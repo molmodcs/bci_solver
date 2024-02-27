@@ -123,13 +123,14 @@ In more detail:
 
 * The first row describing the level of theory.
 * The second row corresponding to the program used to run the calculations for the partial atomic charges.
-* The third row.
-* The fourth row.
+* The third row (to be written).
+* The fourth row (to be written).
 * One empty fifth row.
-* The first column used to 
-*
-*
-*
+* A sixth row used to name the chemical structure.
+* The data in the first column placed below the sixth row being used to enumerate the atoms.
+* The data in the second column placed below the sixth row being used to list each atom.
+* The data in the third column placed below the sixth row being used to place the partial atomic charges of the corresponding atoms in the same row.
+* The last row being used to place the total charge of the chemical structure.
 
 ### Single File Calculations
 
