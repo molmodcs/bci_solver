@@ -122,18 +122,21 @@ These files can also be obtained as output of an ORCA point charge or population
 
 ### Single File Calculations
 
-The users have the option to either do calculations with a single file or with multiple files, these corresponding to the number of chemical structures one wants to analyze. If the user wants to do calculations for a single chemical structure, the only thing needed is either a single .mol2 file, in case the charges are already available in the .mol2 file, or along with a .mol2 file another file to store the partial atomic charges whose format can be any of the ones described in the [Charges File Formats](#charge-file-formats) section.
+The users have the option to either do calculations with a single file or with multiple files, these corresponding to the number of chemical structures one wants to analyze. If the user wants to do calculations for a single chemical structure, the only thing needed is either a single .mol2 file, in case the charges are already available in the .mol2 file (they are stored in the last column), or along with a .mol2 file another file to store the partial atomic charges whose format can be any of the ones described in the [Charges File Formats](#charge-file-formats) section. Below is an en example of a .mol2 file corresponding to the cisplatin molecule and a corresponding XYZ file storing its partial atomic charges computed using a particular population analysis method.
 
 <p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Single%20File%20Calculations/mol2-file-example%20(cispla1-PBEQIDHsapoDZPdzp).png" alt="drawing"/>
-<figcaption>{{ Teste }}</figcaption>
 <p align="center">
 
 <p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Single%20File%20Calculations/xyz-file-format-example%20(cispla1-PBEQIDHsapoDZPdzp-PBE-QIDH-Sapporo-DZP-2012-OPT).png" alt="drawing">
 <p align="center">
 
+The output for a single file calculation will be just a .par file storing the computed bci values if the user chooses to do calculations resorting solely on the .mol2 or, along with the .par file containing the bci values, also a new .mol2 file replacing the charges appearing in the original .mol2 file for the ones that were present in the file storing the charges that were chosen to be used for the calculations.
+
 ### Calculations with Multiple Files - Folder Calculations
+
+We describe in this section how the user needs to organize the input, which will be folders, in order to do computations
 
 #### Organizing the .mol2 Folder 
 
