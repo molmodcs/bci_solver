@@ -75,8 +75,6 @@ pip install odfpy
 conda install odfpy
 ~~~
 
-
-
 # Modules
 
 ## bci_solver_main
@@ -114,6 +112,8 @@ These files can also be obtained as output of an ORCA point charge or population
 <p align="center">
 
 ##### Sheet Format
+
+These are any tables with data organized in the following way:
 
 <p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Charge%20File%20Formats/Sheet%20Format/sheet-file-format-example%20(chelpg-complexos-M06L-ZORA-TZVP).png" alt="drawing"/>
