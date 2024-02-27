@@ -121,12 +121,12 @@ These are any tables/sheets, the supported formats being the same ones supported
 
 In more detail:
 
-* The first row
+* The first row describing the level of theory.
 * The second row corresponding to the program used to run the calculations for the partial atomic charges.
-* The third row
-* The fourth row
-* One empty fifth row
-*
+* The third row.
+* The fourth row.
+* One empty fifth row.
+* The first column used to 
 *
 *
 *
