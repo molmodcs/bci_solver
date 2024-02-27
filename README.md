@@ -107,7 +107,7 @@ XYZ files can be used to describe the partial atomic charges of a given chemical
 
 ##### Orca .log Format
 
-These files can also be obtained as output of an ORCA point charge or population analysis calculation.
+These files can also be obtained as output of an ORCA point charge or population analysis calculation. Below is an example of one such file.
 
 <p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Charge%20File%20Formats/Orca%20.log%20Format/log-file-format-example%20(PLA01).png" alt="drawing"/>
@@ -122,7 +122,7 @@ These files can also be obtained as output of an ORCA point charge or population
 
 ### Single File Calculations
 
-The users have the option to either do calculations with a single file or with multiple files, these corresponding to the number of chemical structures one wants to analyze. If the user wants to do calculations for a single chemical structure, the only thing needed is either a single .mol2 file, in case the charges are already available in the .mol2 file (they are stored in the last column), or along with a .mol2 file another file to store the partial atomic charges whose format can be any of the ones described in the [Charges File Formats](#charge-file-formats) section. Below is an en example of a .mol2 file corresponding to the cisplatin molecule and a corresponding XYZ file storing its partial atomic charges computed using a particular population analysis method.
+The users have the option to either do calculations with a single file or with multiple files, these corresponding to the number of chemical structures one wants to analyze. If the user wants to do calculations for a single chemical structure, the only thing needed is either a single .mol2 file, in case the charges are already available in the .mol2 file (they are stored in the last column), or along with a .mol2 file another file to store the partial atomic charges whose format can be any of the ones described in the [Charge File Formats](#charge-file-formats) section. Below is an en example of a .mol2 file corresponding to the cisplatin molecule and a corresponding XYZ file storing its partial atomic charges computed using a particular population analysis method.
 
 <p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Single%20File%20Calculations/mol2-file-example%20(cispla1-PBEQIDHsapoDZPdzp).png" alt="drawing"/>
