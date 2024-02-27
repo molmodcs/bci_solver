@@ -122,12 +122,16 @@ These files can also be obtained as output of an ORCA point charge or population
 
 ### Single File Calculations
 
+The users have the option to either do calculations with a single file or with multiple files, these corresponding to the number of chemical structures one wants to analyze. If the user wants to do calculations for a single chemical structure, the only thing needed is either a single .mol2 file, in case the charges are already available in the .mol2 file, or along with a .mol2 file another file to store the partial atomic charges whose format can be any of the ones described in the [Charges File Formats](#charge-file-formats) section.
+
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Single%20File%20Calculations/mol2-file-example%20(cispla1-PBEQIDHsapoDZPdzp).png" alt="drawing" width="250"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Single%20File%20Calculations/mol2-file-example%20(cispla1-PBEQIDHsapoDZPdzp).png" alt="drawing"/>
+<em>Example of .mol2 file</em>
 <p align="center">
 
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Single%20File%20Calculations/xyz-file-format-example%20(cispla1-PBEQIDHsapoDZPdzp-PBE-QIDH-Sapporo-DZP-2012-OPT).png" alt="drawing" width="250"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Single%20File%20Calculations/xyz-file-format-example%20(cispla1-PBEQIDHsapoDZPdzp-PBE-QIDH-Sapporo-DZP-2012-OPT).png" alt="drawing">
+<em>Optional xyz file storing the charges of </em>
 <p align="center">
 
 ### Calculations with Multiple Files - Folder Calculations
@@ -135,17 +139,17 @@ These files can also be obtained as output of an ORCA point charge or population
 #### Organizing the .mol2 Folder 
 
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Calculations%20with%20Multiple%20Files%20-%20Folder%20Calculations/Organizing%20the%20.mol2%20Folder/organizing-mol2-folder-example-solid-cisplatin.png" alt="drawing" width="250"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Calculations%20with%20Multiple%20Files%20-%20Folder%20Calculations/Organizing%20the%20.mol2%20Folder/organizing-mol2-folder-example-solid-cisplatin.png" alt="drawing"/>
 <p align="center">
 
 #### Organizing the Charge Folder
 
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Calculations%20with%20Multiple%20Files%20-%20Folder%20Calculations/Organizing%20the%20Charge%20Folder/cisplatin%20-%20charge%20-%20folder%20-%20example.png" alt="drawing" width="250"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Calculations%20with%20Multiple%20Files%20-%20Folder%20Calculations/Organizing%20the%20Charge%20Folder/cisplatin%20-%20charge%20-%20folder%20-%20example.png" alt="drawing"/>
 <p align="center">
 
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Calculations%20with%20Multiple%20Files%20-%20Folder%20Calculations/Organizing%20the%20Charge%20Folder/cisplatin%20-%20mol2%20-%20folder%20-example.png" alt="drawing" width="250"/>
+<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Calculations%20with%20Multiple%20Files%20-%20Folder%20Calculations/Organizing%20the%20Charge%20Folder/cisplatin%20-%20mol2%20-%20folder%20-example.png" alt="drawing"/>
 <p align="center">
 
 ### User Input (bci_solver_main.py)
