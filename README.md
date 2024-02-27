@@ -125,8 +125,9 @@ These files can also be obtained as output of an ORCA point charge or population
 The users have the option to either do calculations with a single file or with multiple files, these corresponding to the number of chemical structures one wants to analyze. If the user wants to do calculations for a single chemical structure, the only thing needed is either a single .mol2 file, in case the charges are already available in the .mol2 file, or along with a .mol2 file another file to store the partial atomic charges whose format can be any of the ones described in the [Charges File Formats](#charge-file-formats) section.
 
 <p align="center">
-<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Single%20File%20Calculations/mol2-file-example%20(cispla1-PBEQIDHsapoDZPdzp).png" alt="drawing"/>
-<em>Example of .mol2 file</em>
+|<img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Single%20File%20Calculations/mol2-file-example%20(cispla1-PBEQIDHsapoDZPdzp).png" alt="drawing"/>|
+|:--:| 
+|Example of .mol file|
 <p align="center">
 
 <p align="center">
