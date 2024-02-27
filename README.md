@@ -147,9 +147,11 @@ The output for a single file calculation will be just a .par file storing the co
 
 ### Calculations with Multiple Files - Folder Calculations
 
-We describe in this section how the user needs to organize the input, which will be folders, in order to do computations
+We describe in this section how the user needs to organize the input, which will be folders, in order to do computations. As an output, the program will generate folders containing .par files containing the bci values for each of the chemical structures contained in the folder, as well as folders containing graphs and histograms plotting the different bci values obtained for the same bond interactions. If the user does calculations appealing to an external folder containing the partial atomic charges, the program will also generate a folder containing .mol2 files corresponding to the same original ones, but whose charges are replaced by the ones that were used for the computations.
 
 #### Organizing the .mol2 Folder 
+
+The folder containing the .mol2 files doesn't need to satisfy any strict requirements, except that we recommend users to use short names (up to 6 letters) for the file names so that they can fit within the generated graphs.
 
 <p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Calculations%20with%20Multiple%20Files%20-%20Folder%20Calculations/Organizing%20the%20.mol2%20Folder/organizing-mol2-folder-example-solid-cisplatin.png" alt="drawing"/>
@@ -237,7 +239,7 @@ Finally, in case the user has provided a -F/--folder argument, he can optionally
 
 The user can also
 
-### Output
+### Output Examples
 
 <p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Output%20-%20Images/bci_values_N-H.png" alt="drawing",width=250/>
