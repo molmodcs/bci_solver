@@ -113,12 +113,23 @@ These files can also be obtained as output of an ORCA point charge or population
 
 ##### Sheet Format
 
-These are any tables with data organized in the following way:
+These are any tables/sheets, the supported formats being the same ones supported by the version of [pandas](#dependencies) that was used to implement the current version of the bci solver script, with data organized in the following way:
 
 <p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Charge%20File%20Formats/Sheet%20Format/sheet-file-format-example%20(chelpg-complexos-M06L-ZORA-TZVP).png" alt="drawing"/>
 <p align="center">
 
+In more detail:
+
+* The first row
+* The second row corresponding to the program used to run the calculations for the partial atomic charges.
+* The third row
+* The fourth row
+* One empty fifth row
+*
+*
+*
+*
 
 ### Single File Calculations
 
@@ -145,6 +156,14 @@ We describe in this section how the user needs to organize the input, which will
 <p align="center">
 
 #### Organizing the Charge Folder
+
+If the user wants to do multiple file calculations, he can also do so by providing an external folder containing the charges that will be used for the performed calculations. This folder needs meet the following requirements:
+
+* All the files contained in it must be of the same format and be one the ones [currently supported by the program](#charge-file-formats).
+* It must contain the same number of files as the .mol2 folder containing the .mol2 files for the chemical structures.
+* Preferably, the name of each file contained in this folder must the same or at least start with the same name as the corresponding .mol2 file name for which it will provide the charges.
+
+Below is an example of a file containing the .mol2 files and the corresponding file containing the charges, all in a XYZ format. 
 
 <p align="center">
 <img src="https://github.com/molmodcs/bci_solver/blob/main/Images/Calculations%20with%20Multiple%20Files%20-%20Folder%20Calculations/Organizing%20the%20Charge%20Folder/cisplatin%20-%20charge%20-%20folder%20-%20example.png" alt="drawing"/>
@@ -216,6 +235,8 @@ Finally, in case the user has provided a -F/--folder argument, he can optionally
 
 ### User Input (bci_solver_main.ipynb)
 
+The user can also
+
 ### Output
 
 <p align="center">
@@ -236,9 +257,15 @@ Finally, in case the user has provided a -F/--folder argument, he can optionally
 
 ## bci_solver_mol2tools
 
+(To be written...)
+
 ## bci_solver_optimization
 
+(To be written...)
+
 ## bci_solver_visualization
+
+(To be written...)
 
 # Technical Remarks
 
