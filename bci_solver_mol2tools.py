@@ -581,8 +581,8 @@ def charges2mol2_folder(mol2_folder_path,charges_folder_path,output_folder=None)
     for mol2_file_path in mydict:
         charges_mol2_file_path = mydict.get(mol2_file_path)
         charges_mol2_file_path_name = os.path.basename(charges_mol2_file_path)
-        print(charges_mol2_file_path_name + 'Done!')
-        print(mol2_file_path + 'Done!')
+        print(charges_mol2_file_path_name + ' Done!')
+        print(mol2_file_path + ' Done!')
         mol2_file_path_copy_source = charges2mol2(mol2_file_path,charges_mol2_file_path,output_folder=new_mol2_folder_path)
 
     return new_mol2_folder_path
@@ -622,8 +622,8 @@ def charges_log2mol2_folder(mol2_folder_path,charges_folder_path,output_folder=N
     for mol2_file_path in mydict:
         charges_log_file_path = mydict.get(mol2_file_path)
         charges_log_file_path_name = os.path.basename(charges_log_file_path)
-        print(charges_log_file_path_name + 'Done!')
-        print(mol2_file_path + 'Done!')
+        print(charges_log_file_path_name + ' Done!')
+        print(mol2_file_path + ' Done!')
         mol2_file_path_copy_source = charges_log2mol2(mol2_file_path,charges_log_file_path,output_folder=new_mol2_folder_path)
 
     return new_mol2_folder_path
@@ -662,8 +662,8 @@ def dataframe2mol2_folder(mol2_folder_path,charges_dataframe,output_folder=None)
     
     for mol2_file_path in mydict:
         charges_sheet_name = mydict.get(mol2_file_path)
-        print(charges_sheet_name + 'Done!')
-        print(mol2_file_path + 'Done!')
+        print(charges_sheet_name + ' Done!')
+        print(mol2_file_path + ' Done!')
         mol2_file_path_copy_source = dataframe2mol2(mol2_file_path,charges_dataframe,charges_sheet_name,output_folder=new_mol2_folder_path)
 
     return new_mol2_folder_path
