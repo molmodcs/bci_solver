@@ -112,6 +112,8 @@ def bci_solver_visualizer(mol2_folder_path,list_of_atom_types=None,q0=None,list_
 
             fig_name_path = os.path.join(fig_save_folder,fig_name)
 
+            print(fig_name_path + 'Done!')
+
             plt.savefig(fig_name_path)
             
 
@@ -254,6 +256,8 @@ def bci_solver_hist_visualizer(mol2_folder_path,list_of_atom_types=None,q0=None,
                 fig_name = f'bci_values_{bci[0]}-{bci[1]}_hist.png'
 
             fig_name_path = os.path.join(fig_save_folder,fig_name)
+
+            print(fig_name_path + 'Done!')
 
             plt.savefig(fig_name_path)
         
