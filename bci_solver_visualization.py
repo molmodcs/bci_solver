@@ -223,8 +223,8 @@ def bci_solver_hist_visualizer(mol2_folder_path,list_of_atom_types=None,q0=None,
 
         fig, ax = plt.subplots()
         ax.set_xlim(-1,0.8)
-        ax.set_xlabel('Valores de bci')
-        ax.set_ylabel('Frequência')
+        ax.set_xlabel('bci values')
+        ax.set_ylabel('Frequency')
 
         ax.hist(bcis,bins=n_bins1,density=True,histtype='step',linewidth=1.5,label='Histogram depicting the bci values available in OpenBabel',color='purple')  
         
