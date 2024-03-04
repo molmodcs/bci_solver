@@ -192,7 +192,7 @@ def bci_solver_mol2(mol2_file_path,atom_type=None,q0=0,show_atom_symbol=True,sho
                 else:
                     print("The output file must show the atom symbols or the atom types")
                     
-        print(mol2_file_path_copy_name + 'Done!')
+        print(mol2_file_path_copy_name + ' Done!')
         return solutions, mol2_file_path_copy_name
                                         
 def bci_solver_mol2_folder(mol2_folder_path,list_of_atom_types=None,q0=None,show_atom_symbol=True,show_atom_type=False,
