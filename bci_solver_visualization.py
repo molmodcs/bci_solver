@@ -241,6 +241,8 @@ def bci_solver_hist_visualizer(mol2_folder_path,list_of_atom_types=None,q0=None,
             
             ax.hist(bci_values,bins=n_bins2,density=True,histtype='step',linewidth=1.5,label=f'Histogram of the bci values for the interactions {bci[0]}-{bci[1]} ',color='green')
 
+        plt.legend(loc=(1.04, 0.5))
+        
         if save_fig == True:
             if (show_atom_symbol == True) and (show_atom_type == False):
                 fig_name = f'bci_values_{bci_atom_interactions_mol2[bci][0][0]}-{bci_atom_interactions_mol2[bci][1][0]}_hist.png'
