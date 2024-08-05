@@ -5,7 +5,7 @@ SMALL
 GASTEIGER
 
 @<TRIPOS>ATOM
-      1 PT          0.0000    0.0000    0.0742 Pt      1  UNL1        0.0000
-      2 CL          0.0000    0.0000    2.2258 Cl      1  UNL1        0.0000
+      1 PT          0.0000    0.0000    0.0742 Pt      1  UNL1        0.383492
+      2 CL          0.0000    0.0000    2.2258 Cl      1  UNL1        -0.383492
 @<TRIPOS>BOND
      1     1     2    1
