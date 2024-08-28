@@ -1,0 +1,11 @@
+@<TRIPOS>MOLECULE
+*****
+ 2 1 0 0 0
+SMALL
+GASTEIGER
+
+@<TRIPOS>ATOM
+      1 PT         -3.7335    0.9343    0.0000 Pt      1  UNL1        0.077237
+      2 H          -2.1607    0.9882    0.0000 H       1  UNL1        -0.077237
+@<TRIPOS>BOND
+     1     1     2    1
